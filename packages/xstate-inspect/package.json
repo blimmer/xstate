@@ -1,6 +1,6 @@
 {
   "name": "@xstate/inspect",
-  "version": "0.2.0",
+  "version": "1.0.0-next.0",
   "description": "XState inspection utilities",
   "keywords": [
     "state",
@@ -18,9 +18,7 @@
   "module": "dist/inspect.esm.js",
   "types": "lib/index.d.ts",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/davidkpiano/xstate.git"
@@ -38,6 +36,6 @@
     "xstate": "*"
   },
   "peerDependencies": {
-    "xstate": "^4.13.0"
+    "xstate": "^5.0.0-next.0"
   }
 }
